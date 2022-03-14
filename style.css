@@ -1,0 +1,164 @@
+*{
+    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.bac-color{
+    background-color: rgb(22, 164, 211);
+}
+
+header{
+
+    text-align: center;
+    height: 90px;
+    border-radius: 20px;
+    color: white;
+    line-height: 100px;
+}
+
+.todo-input-aside{
+
+   height: 50px;
+   margin-top: 10px;
+   border-radius: 10px;
+   text-align: center;
+   line-height: 50px;
+       
+}
+
+.todo-input-aside label{
+    color: white;
+    font-size: 18px;
+
+
+}
+
+.todo-input-aside input{
+
+    width: 400px;
+    display: flexbox;
+    height: 27px;
+    font-size: 18px;
+    border: none;
+    appearance: none;
+    outline: none;
+    background-color: none;
+    border-radius: 3px;
+
+}
+.todo-input-aside input::placeholder{
+    color: var(--rgb(22, 164, 211));
+} 
+
+.todo-input-aside button{
+    width: 55px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    background-color: white;
+    color: rgb(22, 164, 211);
+    size: 50px;
+    margin-right: 50px;
+}
+
+
+.todo-input-aside button:hover{
+    background-color: rgb(203, 230, 240);
+    color:rgb(22, 164, 211);
+    cursor: pointer;
+}
+/* .todo-input-aside input:active{
+    border-color:rgb(22, 164, 211); 
+    color: white;
+}  */
+
+.todo-input-aside input:hover{
+
+    background: var(--rgb(22, 164, 211));
+     cursor: pointer;
+} 
+
+
+.todo-content{
+
+    margin-top: 10px;
+    display: inline-flexbox;
+
+}
+
+.todo-area{
+
+    width: 49.67%;
+    border: 1px solid rgb(22, 164, 211);
+    display: inline-flex;
+    min-height: 300px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border-radius: 10px;
+    /* background-color: rgb(22, 164, 211); */
+}
+
+.todo-header{
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    width: 100%;
+    color: white;
+    background-color: rgb(22, 164, 211) ;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+
+.todo-article{
+    width: 100%;
+
+}
+
+.todo-article ul li{
+    list-style: none;
+    padding-left: 100px;
+    
+}
+
+.todo-articleul li input{
+    width: 14px;
+    height: 14px;
+    
+
+}
+
+.todo-complate{
+    text-decoration:line-through ;
+}
+
+button, input{
+    border: none;
+    min-height: 30px;
+    border-radius: 10px;
+    
+    
+
+}
+
+button:hover{
+    width: 60px;
+    height: 40px;
+    cursor: pointer;
+    transition: width 0.4s, height 0.4s;
+}
+
+li button{
+    background-color: rgb(22, 164, 211);
+    width: 50px;
+    color: white;
+}
+
+
+
+li input{
+    width: 300px;
+    
+}
+
+
+

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Todo Simple</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <style>
+        
+    </style>
+</head>
+<body>
+    <header class="bac-color">
+          <h1><i class="fa-solid fa-clipboard-check"></i>
+            TODO App
+        </h1>
+    </header>
+
+   <aside class="todo-input-aside bac-color">
+       <label for="txtTodo"></label>
+       <input type="text" name="txtTodo" id="txtTodo" value="" placeholder="Bugün ki görevlerini yaz..."/>
+       <button class="btn" id="btnAdd"><i class="fa-solid fa-plus"></i></button>
+   </aside>
+
+   <aside class="todo-content">
+       <div class="todo-area">
+           <div class="todo-header back-color">
+               <span>TODO</span>
+           </div>
+
+           <div class="todo-article">
+               <ul id="todoUL">
+                   
+                   <!-- <li class="todo-complate">
+                     <input type="checkbox" name="name" id="" value=""/>
+                     <span>deneme todo konusu</span>
+                     <button id="btndelete">Sil</button>
+                   </li> -->
+               </ul>
+           </div>
+       </div>
+       <div class="todo-area">
+            <div class="todo-header back-color">
+                <span>COMPLATE</span>
+            </div>
+            
+            <div class="todo-article">
+                <ul id="complateUL">
+                    
+                    <!-- <li class="todo-complate">
+                        <input type="checkbox" name="name" id="" value=""/>
+                        <span>deneme todo konusu</span>
+                    </li> -->
+                </ul>
+            </div>
+       </div>
+   </aside>
+
+<script src="script.js"></script>
+</body>
+</html>
